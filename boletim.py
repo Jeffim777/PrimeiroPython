@@ -7,7 +7,7 @@ for aluno in range(0+ alunos):
     nota = float(input('Digite a nota do aluno: '))
 
     if(nota >= 7.5):
-        boletim = boletim + 'O aluno ' + nome + ' passou de ano com nota ' + str(nota) + '.\n'
+        boletim = boletim + 'O aluno ' + nome + ' passou de ano com nota ' + str(nota) + '.\n' # str(nota) vai converter o nota que é float para string
     elif(nota >= 5):
         boletim = boletim + 'O aluno ' + nome + ' fará prova de recuperação por tirar nota ' + str(nota) + '.\n'
     elif(nota >= 2.5):
