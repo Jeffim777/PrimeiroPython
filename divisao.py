@@ -1,4 +1,4 @@
 a = int(input('Digite um número: '))
 b = int(input('Digite outro número: '))
-soma = a + b
-print('A soma dos números é:', soma)
+divisao = a / b
+print('A divisão dos números é :', divisao)
